@@ -351,7 +351,14 @@ p, li {
   height: 110px;
   border: 10px solid whitesmoke;
   border-radius: 5px;
-  
+}
+
+.project-samples:hover {
+  border: 10px solid gray;
+}
+
+.navbar-nav m-auto li {
+  list-style-type: none;
 }
 
 .project-wrapper {
@@ -400,6 +407,10 @@ li {
 }
 
 li::before {
+  content: "\2713";
+}
+
+nav-item active li::before {
   content: "\2713";
 }
 
