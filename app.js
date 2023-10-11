@@ -27,7 +27,7 @@ icons.forEach((icon) => {
     icon.style.transition = "border 0.3s ease-in-out";
 
     icon.addEventListener("mouseover", () => {
-        icon.style.border = "4px solid gray"
+        icon.style.border = "4px solid white"
         icon.style.borderRadius = "10px"
     })
     icon.addEventListener("mouseout", () => {

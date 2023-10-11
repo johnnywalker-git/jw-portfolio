@@ -363,6 +363,17 @@ p, li {
   transition: border 0.3s ease;
 }
 
+svg[title]:hover:after {
+  content: attr(title);
+  display: block;
+  position: absolute;
+  background: #000;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  z-index: 1;
+}
+
 .project-samples:hover {
   border: 2px solid gray;
 }
